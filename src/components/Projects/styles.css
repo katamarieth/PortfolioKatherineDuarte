@@ -1,0 +1,39 @@
+.content-project{
+    background: #8d9c9d;
+  
+
+}
+
+.img-project{
+ width: 50%;
+ 
+}
+
+.list-project{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.title-project{ 
+    text-align:center;
+    margin-bottom: 30px;
+    font-weight: 300;
+
+}
+
+.item-list-project{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin:30px 50px;
+ 
+    
+
+}
+
+.name-project{ 
+    font-weight: 300;
+    padding:10px 0 10px 0;
+}

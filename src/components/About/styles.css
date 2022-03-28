@@ -1,0 +1,108 @@
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #FFF;
+   
+}
+
+h1, h2,h3{
+    font-weight: 900;
+    color: black;
+}
+
+#foto{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+  }
+
+
+.container{
+    display: flex;
+    height: calc(100vh - 70px);
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 80px 30px;
+    margin-bottom:40px;
+}
+
+.container p{
+    text-align: justify;
+   
+    padding: 100px;
+}
+
+
+section.module:last-child{
+
+    margin-bottom: 0;
+
+}
+
+section.module h2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size:40px;
+    text-align: center;
+   
+}
+section.module.content{
+    padding: 40px 0;
+    background: #FFFF;
+    
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+
+
+
+}
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  }
+
+section.module.parallax-1{
+    background-image: url("https://www.imcgrupo.com/wp-content/uploads/2022/02/Top-skills-Front-End-Developers-need-to-know-in-2022-01.webp");
+}
+
+section.module.parallax h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+

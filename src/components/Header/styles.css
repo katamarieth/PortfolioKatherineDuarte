@@ -1,0 +1,27 @@
+header{
+    
+    background:#262a41;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:70px;
+    padding: 0 20px;
+}
+img{
+    width:70px;
+}
+
+.menu{
+    display:flex;
+    color:white;
+    list-style: none;
+    margin: 20px;
+   
+    
+}
+
+.item{
+    padding-right:30px;
+    color: white;
+}
+

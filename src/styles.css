@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding:0;
+    color: #242424;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    scroll-behavior:smooth;
+   
+}
+
+a { 
+    text-decoration: none;
+}
+
+.App{
+    background-color: #939473;
+    height: auto;
+}
