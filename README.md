@@ -23,3 +23,5 @@ redirecionamento). Projetos a serem listados, no mínimo 3.
 4. A última seção do site será um footer com informações de contato.
 (Linkedin, Github e email). Esses itens deverão utilizar ícones para fazer o
 redirecionamento.
+
+link projeto: https://katherine-duarte.herokuapp.com/
